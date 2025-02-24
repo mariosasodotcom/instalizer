@@ -18,7 +18,7 @@ See [LICENSE](https://www.gnu.org/licenses/) for details.
 
 ### **1. Clone the Repository**  
 ```bash
-git clone https://github.com/mariosaso/instalyzer.git
+git clone https://github.com/mariosasodotcom/instalyzer.git
 cd instalyzer
 ```
 
@@ -56,7 +56,7 @@ Once the download is ready:
 
 ### **Run Instalyzer**  
 ```bash
-python script.py -f followers.html -g following.html
+python instalyzer.py -f followers.html -g following.html
 ```
 The script will **automatically generate and save** the following files:  
 - `not_following_back.txt` → Users you follow, but they don’t follow you back.  
